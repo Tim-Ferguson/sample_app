@@ -4,6 +4,7 @@
     <section>
       <h1>
         <%= @user.name %>'s Profile
+        <!-- add small link for 'edit profile' -->
       </h1>
       <h1>
       	<%= gravatar_for @user %>
@@ -11,4 +12,13 @@
 
     </section>
   </aside>
+  <div class="span8">
+  	<h3>Posts (<%= @user.microposts.count %>)</h3>
+    <% if @user.microposts.any? %>
+      <ol class="microposts">
+        <%= render @microposts %>
+      </ol>
+      
+    <% end %>
+  </div>
 </div>
