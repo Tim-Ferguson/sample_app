@@ -1,7 +1,7 @@
 README
 
-CourseKarma Demo Sample Application
+CourseKarma Demo Sample Application 
 
-www.coursekarma.com
+Created following Michael Hartl Ruby On Rails Tutorial (www.railstutorial.org) 
 
-Ruby On Rails 
+Current Launchsite:  www.coursekarma.com
